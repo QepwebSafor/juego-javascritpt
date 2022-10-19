@@ -1,2 +1,2 @@
 # talller-practico-javascript-videogames
-https://qepwebsafor.github.io/juego-javascritpt/
+* Página web: https://qepwebsafor.github.io/juego-javascritpt/
