@@ -166,14 +166,16 @@ function gameWin() {
     if (recordTime >= playerTime) {
       localStorage.setItem('record_time', playerTime);
       pResult.innerHTML = 'SUPERASTE EL RECORD :)';
+    
     } else {
       pResult.innerHTML = 'lo siento, no superaste el records :(';
+      
     }
   } else {
     localStorage.setItem('record_time', playerTime);
     pResult.innerHTML = 'Primera vez? Muy bien, pero ahora trata de superar tu tiempo :)';
   }
-
+  location.reload();
   console.log({recordTime, playerTime});
 }
 
